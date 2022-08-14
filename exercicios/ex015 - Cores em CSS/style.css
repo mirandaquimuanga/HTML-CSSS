@@ -1,0 +1,31 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+p {
+    text-align: justify;
+}
+/*Inserindo cores ao site;*/
+body{
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A7);
+}
+
+main {
+    background-color: white; /*Para adicionar color do fundo do texto*/
+    border-radius: 2%;  /*Para arredondar os cantos das janelas*/
+    width: 600px;   /*Para definir a altura do backgraund*/
+    padding: 10px;  /*Melhorar a margem do texto em relacao ao backgraund*/
+    margin: auto;   /*Para fazer com que os espacamentos do backgraund sejam ajustando automaticamente com a tela*/
+    box-shadow: 5px 5px 15px #745d4f9d;
+}
+
+/*Colorindo os h*/
+h1{
+    color: #F39209;
+    text-align: center;
+    text-shadow: 1px 1px 3px #caa28b94;
+}
+h2{
+    color: #125189;
+}

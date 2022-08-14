@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <!--Para enquadrar a imagem em qualquer tela: telemovel, tables, computadores/TVs-->
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <!--Adicionando audio ao site-->
+    <h1>Reproduzindo audio</h1>
+    <audio controls>
+        <source src="midias/audio/give-me.mp3" type="audio/mpeg">
+        <p>Problemas ao carregar a musica de Kark Sumba</p>
+    </audio>
+    <br>
+    <audio controls>
+        <source src="midias/audio/vocal.wav" type="audio/wav">
+    </audio>
+    
+    <h1>Adicionando videos ao site</h1>
+    <video width="200" height="300" poster="imagens/Lg.M.Fb.png" controls autoplay loop>
+        <source src="midias/video/AINDA QUE - COVER FINAL.mp4" type="video/mp4">
+        <p>O o formato do video nao e compativel com o seu navegador</p>
+    </video>
+
+    <!--Os videos hospedados no servidor do site, consomem muitos dados provocando o elevado preco para o servico de hospedagem.-->
+
+    <!--Como solucao, o ideal e carregar o video de outra plataforma digital online.-->
+</body>
+</html>
